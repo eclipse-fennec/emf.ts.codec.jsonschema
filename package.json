@@ -41,6 +41,9 @@
     "typescript": "^5.0.0",
     "vitest": "^4.0.15"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "volta": {
     "node": "20.19.4"
   }
