@@ -2,6 +2,8 @@
 
 JSON Schema codec for [emf.ts](https://github.com/eclipse-fennec/emf.ts) - bidirectional conversion between JSON Schema and EMF metamodels.
 
+Implements [JSON Schema](https://json-schema.org/specification) Draft 2020-12.
+
 ## Features
 
 - Convert JSON Schema (Draft 2020-12) to EMF EPackage metamodels
@@ -38,6 +40,18 @@ const schema = converter.convert(ePackage);
 const schemaString = converter.convertToString(ePackage);
 ```
 
+## Deployment & Artifacts
+
+| | |
+|---|---|
+| Registry | [npmjs.com](https://www.npmjs.com/package/@emfts/codec.jsonschema) |
+| Package | [`@emfts/codec.jsonschema`](https://www.npmjs.com/package/@emfts/codec.jsonschema) (public) |
+| Build output | `dist/` (ESM, `tsc`) — only `dist` is published (see `files` in `package.json`) |
+| Source | <https://github.com/eclipse-fennec/emf.ts.codec.jsonschema> (default branch `main`) |
+| Project | [Eclipse Fennec](https://projects.eclipse.org/projects/modeling.fennec) |
+
+Releases are published to the npm registry under the `@emfts` scope.
+
 ## License
 
-[EPL-2.0](https://www.eclipse.org/legal/epl-2.0/)
+[EPL-2.0](https://www.eclipse.org/legal/epl-2.0/) — see [`LICENSE`](./LICENSE).
